@@ -1,0 +1,8 @@
+﻿  MainApp.cpp
+d:\code\vs\tcpclient\tcpclient\mainapp.cpp(131): warning C4996: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::copy': Call to 'std::basic_string::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  d:\vs\vc\include\xstring(1808): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>::copy”的声明
+d:\code\vs\tcpclient\tcpclient\mainapp.cpp(145): warning C4018: “<”: 有符号/无符号不匹配
+d:\code\vs\tcpclient\tcpclient\mainapp.cpp(167): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+  TCPClient.vcxproj -> D:\code\vs\TCPClient\Debug\TCPClient.exe
+  TCPClient.vcxproj -> D:\code\vs\TCPClient\Debug\TCPClient.pdb (Full PDB)
